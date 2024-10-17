@@ -862,6 +862,45 @@ main {
   height: 100%;
   border-radius: inherit;
 }
+/* Skills Section Styles */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.skill-card {
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-icon {
+    font-size: 20px;
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    font-size: 10px;
+    font-weight: bold;
+    color: #333;
+}
 
 
 
