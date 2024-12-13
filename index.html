@@ -251,6 +251,7 @@
                             </div>
 
                         </li>
+                        <!-- Modal -->
 
                     </ul>
             </article>
@@ -552,7 +553,7 @@
                     <ul class="blog-posts-list">
 
                          <li class="blog-post-item">
-                            <a href="#">
+                            <a href="#" onclick="openModal('./assets/images/13.jpg')">
 
         <figure class="blog-banner-box">
             <img src="./assets/images/13.jpg" alt="GDG New Delhi 2024 Event" loading="lazy">
@@ -576,7 +577,7 @@
     </a>
 </li>
                         <li class="blog-post-item">
-                            <a href="#">
+                             <a href="#" onclick="openModal('./assets/images/InHackathon.webp')">
 
                                 <figure class="blog-banner-box">
                                     <img src="./assets/images/InHackathon.webp" alt="Hackathon in 2022" loading="lazy">
@@ -602,7 +603,7 @@
                         </li>
 
                         <li class="blog-post-item">
-                            <a href="#">
+                            <a href="#" onclick="openModal('./assets/images/code4cause.jpg')">
 
                                 <figure class="blog-banner-box">
                                     <img src="./assets/images/code4cause.jpg" alt="Best fonts every designer"
@@ -628,7 +629,7 @@
                         </li>
 
                         <li class="blog-post-item">
-                            <a href="#">
+                           <a href="#" onclick="openModal('./assets/images/stockmarketgrowth.jpg')" >
 
                                 <figure class="blog-banner-box">
                                     <img src="./assets/images/stockmarketgrowth.jpg" loading="lazy">
@@ -656,7 +657,7 @@
                         </li>
 
                         <li class="blog-post-item">
-                            <a href="#">
+                           <a href="#" onclick="openModal('./assets/images/knorishMeetup.jpg')">
 
                                 <figure class="blog-banner-box">
                                     <img src="./assets/images/knorishMeetup.jpg" alt="UI interactions of the week"
@@ -687,7 +688,7 @@
                         </li>
 
                         <li class="blog-post-item">
-                            <a href="#">
+                           <a href="#" onclick="openModal('./assets/images/Aiworks.jpg')">
 
                                 <figure class="blog-banner-box">
                                     <img src="./assets/images/Aiworks.jpg" loading="lazy">
@@ -711,7 +712,7 @@
                         </li>
 
                         <li class="blog-post-item">
-                            <a href="#">
+                           <a href="#" onclick="openModal('./assets/images/sixSigma.jpg')">
 
                                 <figure class="blog-banner-box">
                                     <img src="./assets/images/sixSigma.jpg" loading="lazy">
@@ -738,6 +739,11 @@
 
                             </a>
                         </li>
+                        <div id="imageModal" class="modal" onclick="closeModal()">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
 
                     </ul>
 
